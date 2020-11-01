@@ -43,6 +43,19 @@ body {
   min-width: 190px;
   width: 14.8%;
   margin: 0.2% 0 0 2.7%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.instagram-phone .display {
+  -webkit-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
+  z-index: 2;
+}
+
+.instagram-phone .display, .instagram-phone .outfocus {
+  opacity: 1;
+  visibility: visible;
 }
 
 .instagram-continue {
